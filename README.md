@@ -1,8 +1,8 @@
-# 温衡 HeatGuard
+# 温衡
 
-<p align="center">
-  <img src="README-assets/heatguard-icon.png" width="112" alt="温衡应用图标">
-</p>
+<p align="center">HEATGUARD · macOS 本地热状态观察与保护工具</p>
+
+<hr>
 
 <h2 align="center">本地热状态，先判断，再处理。</h2>
 <p align="center"><strong>把系统热状态、硬件参考、进程身份和用户确认放进同一条观察链。</strong></p>
@@ -24,13 +24,17 @@
 
 > **重要说明**  温衡是规则驱动的原生 macOS 工具，不是 AI 产品，也没有接入云端模型。界面与处置边界以本仓库代码为准。
 
-<p align="center">
-  <img src="README-assets/social-preview-v3.png" alt="温衡 HeatGuard 产品展示卡">
-</p>
-
 ## 项目定位
 
 温衡把“看到热状态”和“决定是否处理”分开：先连续读取，再核对进程身份与上下文，最后把处置权交还给用户。它不把高 CPU、温度偏高或低磁盘活动直接等同于“任务失控”。
+
+## 视觉预览
+
+<p align="center">
+  <img src="README-assets/heatguard-icon.png" width="88" alt="温衡应用图标">
+</p>
+
+![温衡 HeatGuard 产品展示卡](README-assets/social-preview-v3.png)
 
 ## 能力
 
