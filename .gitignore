@@ -1,0 +1,6 @@
+.build/
+.build-*/
+.swiftpm/
+dist.noindex/
+*.app/
+.DS_Store

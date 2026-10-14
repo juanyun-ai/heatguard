@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">温衡本地观察与处置边界</title>
+  <desc id="desc">本机信号经过连续证据和安全门禁后，默认只向用户展示建议；动作必须经过明确授权并在执行前复核。</desc>
+  <rect width="1200" height="360" rx="12" fill="#f5f7f6"/>
+  <text x="48" y="56" fill="#182522" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="25" font-weight="700">从观测到动作，每一步都能解释</text>
+  <text x="48" y="84" fill="#56645f" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="15">本机数据 · 连续证据 · 显式授权 · 执行前复核</text>
+  <g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+    <rect x="48" y="122" width="238" height="166" rx="10" fill="#ffffff" stroke="#d9e0dc"/>
+    <rect x="48" y="122" width="238" height="8" rx="4" fill="#177e75"/>
+    <text x="70" y="166" fill="#177e75" font-size="13" font-weight="700">01 / 本机信号</text>
+    <text x="70" y="202" fill="#182522" font-size="18" font-weight="650">温度、热状态</text>
+    <text x="70" y="230" fill="#182522" font-size="18" font-weight="650">CPU 与进程快照</text>
+    <text x="70" y="264" fill="#68746f" font-size="13">只读采样，不上传</text>
+
+    <path d="M296 205h26m-8-8 8 8-8 8" fill="none" stroke="#8b9892" stroke-width="2"/>
+
+    <rect x="332" y="122" width="238" height="166" rx="10" fill="#ffffff" stroke="#d9e0dc"/>
+    <rect x="332" y="122" width="238" height="8" rx="4" fill="#377a9e"/>
+    <text x="354" y="166" fill="#377a9e" font-size="13" font-weight="700">02 / 证据门禁</text>
+    <text x="354" y="202" fill="#182522" font-size="18" font-weight="650">持续时长与低 I/O</text>
+    <text x="354" y="230" fill="#182522" font-size="18" font-weight="650">身份、前台、保护</text>
+    <text x="354" y="264" fill="#68746f" font-size="13">未知或缺帧时停止判断</text>
+
+    <path d="M580 205h26m-8-8 8 8-8 8" fill="none" stroke="#8b9892" stroke-width="2"/>
+
+    <rect x="616" y="122" width="238" height="166" rx="10" fill="#ffffff" stroke="#d9e0dc"/>
+    <rect x="616" y="122" width="238" height="8" rx="4" fill="#c27a24"/>
+    <text x="638" y="166" fill="#a45f12" font-size="13" font-weight="700">03 / 用户决定</text>
+    <text x="638" y="202" fill="#182522" font-size="18" font-weight="650">默认仅观察</text>
+    <text x="638" y="230" fill="#182522" font-size="18" font-weight="650">授权后可取消倒计时</text>
+    <text x="638" y="264" fill="#68746f" font-size="13">建议可见，动作不隐藏</text>
+
+    <path d="M864 205h26m-8-8 8 8-8 8" fill="none" stroke="#8b9892" stroke-width="2"/>
+
+    <rect x="900" y="122" width="252" height="166" rx="10" fill="#ffffff" stroke="#d9e0dc"/>
+    <rect x="900" y="122" width="252" height="8" rx="4" fill="#8a5979"/>
+    <text x="922" y="166" fill="#8a5979" font-size="13" font-weight="700">04 / 有限动作</text>
+    <text x="922" y="202" fill="#182522" font-size="18" font-weight="650">复核目标身份</text>
+    <text x="922" y="230" fill="#182522" font-size="18" font-weight="650">单进程、SIGTERM</text>
+    <text x="922" y="264" fill="#68746f" font-size="13">自动路径不升级 SIGKILL</text>
+  </g>
+</svg>
