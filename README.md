@@ -1,32 +1,36 @@
 # 温衡 HeatGuard
 
 <p align="center">
-  <img src="README-assets/heatguard-icon.png" width="96" alt="温衡应用图标">
+  <img src="README-assets/heatguard-icon.png" width="112" alt="温衡应用图标">
 </p>
 
 <h2 align="center">本地热状态，先判断，再处理。</h2>
-<p align="center">一个把系统热状态、硬件参考、进程身份和用户确认放在同一条观察链里的 macOS 工具。</p>
+<p align="center"><strong>把系统热状态、硬件参考、进程身份和用户确认放进同一条观察链。</strong></p>
+<p align="center">一款离线优先的原生 macOS 工具，帮助你在资源争用时保留证据、边界和撤销权。</p>
 
 <p align="center">
-  <img src="README-assets/social-preview-v3.png" alt="温衡 HeatGuard 产品展示卡">
+  <img src="https://img.shields.io/badge/VERSION-2.4.0-orange?style=for-the-badge&labelColor=505050" alt="Version 2.4.0">
+  <img src="https://img.shields.io/badge/PLATFORM-macOS%2013%2B-63c59c?style=for-the-badge&labelColor=505050" alt="macOS 13 or later">
+  <img src="https://img.shields.io/badge/STACK-SWIFT%20%2F%20C%20%2F%20UNIVERSAL%202-82a9e0?style=for-the-badge&labelColor=505050" alt="Swift C Universal 2">
+  <img src="https://img.shields.io/badge/MODE-OFFLINE--FIRST-e97b73?style=for-the-badge&labelColor=505050" alt="Offline first">
 </p>
 
 <p align="center">
+  <a href="#能力">能力</a> ·
   <a href="#构建与测试">构建与测试</a> ·
   <a href="#已知边界">已知边界</a> ·
   <a href="#项目来源与许可">来源与许可</a>
 </p>
 
-<table align="center">
-  <tr>
-    <td><strong>版本</strong><br>2.4.0 / build 85</td>
-    <td><strong>平台</strong><br>macOS 13+</td>
-    <td><strong>技术</strong><br>Swift · C · Universal 2</td>
-    <td><strong>运行方式</strong><br>offline-first</td>
-  </tr>
-</table>
+> **重要说明**  温衡是规则驱动的原生 macOS 工具，不是 AI 产品，也没有接入云端模型。界面与处置边界以本仓库代码为准。
 
-> 温衡是规则驱动的原生 macOS 工具，不是 AI 产品，也没有接入云端模型。界面与处置边界以本仓库代码为准。
+<p align="center">
+  <img src="README-assets/social-preview-v3.png" alt="温衡 HeatGuard 产品展示卡">
+</p>
+
+## 项目定位
+
+温衡把“看到热状态”和“决定是否处理”分开：先连续读取，再核对进程身份与上下文，最后把处置权交还给用户。它不把高 CPU、温度偏高或低磁盘活动直接等同于“任务失控”。
 
 ## 能力
 
